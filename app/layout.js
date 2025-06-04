@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
 
   return (
-    <CerkProvider>
+    <ClerkProvider>
       <html lang="en">
         <body className={montserrat.className}>
           <TooltipProvider>
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
 
         </body>
       </html>
-    </CerkProvider>
+    </ClerkProvider>
   );
 
 }
